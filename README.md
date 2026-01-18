@@ -22,7 +22,7 @@ Copia i file del plugin nella seguente directory: user/plugins/upload-helper
 Utilizzo nei Blueprint
 Per visualizzare i limiti del server in un campo file o filepicker, aggiungi la proprietà help@ richiamando la funzione del plugin nel tuo file YAML:
 
-'''YAML
+```yaml
       fields:
         header.mio_file:
           type: filepicker
@@ -32,7 +32,7 @@ Per visualizzare i limiti del server in un campo file o filepicker, aggiungi la 
             - .pdf
           # Qui avviene la magia:
           help@: '\Grav\Plugin\UploadHelperPlugin::getPhpLimits'
-'''
+```
 ### Cosa restituisce
 Il plugin interroga le impostazioni ini di PHP e restituisce una stringa formattata come segue: ⚙️ Server Limits — File Max: 8M | Post Max: 16M | RAM: 128M
 
