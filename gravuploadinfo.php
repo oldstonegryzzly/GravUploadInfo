@@ -14,6 +14,6 @@ class GravUploadInfoPlugin extends Plugin
         $post_max = ini_get('post_max_size');
         $memory_limit = ini_get('memory_limit');
 
-        return "⚙️ Server Limits — File Max: {$upload_max} | Post Max: {$post_max} | RAM: {$memory_limit}";
+        return "Server Limits — File Max: {$upload_max} | Post Max: {$post_max} | RAM: {$memory_limit}";
     }
 }
