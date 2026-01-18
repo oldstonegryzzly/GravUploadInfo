@@ -3,7 +3,7 @@ namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
 
-class GravUploadInfo extends Plugin
+class GravUploadInfoPlugin extends Plugin
 {
     /**
      * Restituisce le info sui limiti PHP per i Blueprint
