@@ -1,5 +1,5 @@
 # GravUploadInfo
-Grav Plugin, Fornisce informazioni dinamiche sui limiti di configurazione del server PHP direttamente all'interno dei Blueprint dell'amministrazione di Grav.
+Grav Plugn. Fornisce informazioni dinamiche sui limiti di configurazione del server PHP direttamente all'interno dei Blueprint dell'amministrazione di Grav.
 Questo plugin è una utility leggera, il suo scopo è fornire informazioni dinamiche sui limiti di configurazione del server PHP direttamente all'interno dei Blueprint dell'amministrazione di Grav.
 
 ### Perché è utile?
