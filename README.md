@@ -32,7 +32,7 @@ Per visualizzare i limiti del server in un campo file o filepicker, aggiungi la 
             - .pdf
           # Qui avviene la magia:
           help@: '\Grav\Plugin\UploadHelperPlugin::getPhpLimits'
-
+'''
 ### Cosa restituisce
 Il plugin interroga le impostazioni ini di PHP e restituisce una stringa formattata come segue: ⚙️ Server Limits — File Max: 8M | Post Max: 16M | RAM: 128M
 
